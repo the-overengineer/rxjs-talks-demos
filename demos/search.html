@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RxJS Demo 2</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.4.3/Rx.js"></script>
+    <script src="./search.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+      html, body {
+        height: 100%;
+      }
+
+      body {
+        display: flex;
+        align-items: stretch;
+      }
+
+      .well {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="grid well">
+      <div class="row">
+        <section class="col-xs-12">
+          <input id="search" placeholder="Search Wikipedia" />
+        </section>
+      </div>
+      <div class="row" style="margin-top: 32px;">
+        <ul id="results"></ul>
+      </div>
+    </main>
+  </body>
+</html>
